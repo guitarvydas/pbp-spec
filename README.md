@@ -10,8 +10,8 @@ I think this will turn into two major specifications:
 1. A general specification of how PBP should work.
 2. Custom specifications for 10 simple Parts that make up this example solution.
 
-Presently, I think the this diagram represents what I want to do for each markdown file to be converted:
-![converter](./blog-porting.drawio.drawio.png)
+Presently, I think the this diagram represents what I want to do for each markdown file to be converted:![[blog-porting.drawio.png]]
+![converter](blog-porting.drawio.png)
 
 # Background
 I have been struggling to convert some 325 blog articles written in Obsidian to a format compatible with Github Pages.
@@ -26,5 +26,5 @@ The chunks use mevent-passing instead of function-calling as "IPC" mechanisms.
 
 ## Issues
 The main issues in this conversion project are:
-- Obsidian encourages one to write articles in small chunks and to use "links" to recursively reference the chunks. Github Pages tends to want a big, flat file of markdown.
-- Obsidian uses wiki-links, Github Pages uses older-style markdown links containing concrete relative pathnames.
+- Obsidian encourages one to write articles in small chunks and to use "links" to recursively referenced chunks. Github Pages tends to want a big, flat file of markdown.
+- Obsidian uses wiki-links, Github Pages uses different-style markdown links containing concrete relative pathnames.
